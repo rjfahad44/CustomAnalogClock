@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Circular base of the second hand -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M50,50m-4,0a4,4,0,1,1,8,0a4,4,0,1,1,-8,0" />
+
+    <!-- Rectangular body of the second hand -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M50,50L50,5L51,5L51,50Z" />
+
+    <!-- Small extension for balance -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M50,50L50,55L51,55L51,50Z" />
+</vector>
